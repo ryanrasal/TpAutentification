@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    background-color: #FFAA04;
+}
+.imgAnanas {
+    display: none;
+}
+h2 {
+    padding-top: 123px;
+    padding-bottom: 123px;
+    font-size: 40px;
+    color: white;
+}
+.containerEmail, .containerPassword {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+input {
+    height: 69px;
+    width: 269px;
+    margin: 0 auto;
+    background-color: #FFAA04;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+label {
+    display: flex;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    font-size: 16px;
+    color: white;
+}
+.containerButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+button {
+    height: 68px;
+    width: 187px;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: #FFAA04;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+.pForm {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 50px;
+}
+span {
+    color: #1689DD;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        height: 997px;
+        width: 1395px;
+        background-color: #FFAA04;
+        border-radius: 10px;
+    }
+    .imgAnanas {
+        display: block;
+        height: 828px;
+        width: 674px;
+        padding-top: 73px;
+        border-radius: 10px 10px 10px 10px;
+
+    }
+    h2 {
+        padding-top: 223px;
+        font-size: 40px;
+        color: white;
+    }
+    input {
+        height: 69px;
+        width: 469px;
+        border-radius: 10px;
+    }
+    .containerButton {
+        display: flex;
+        justify-content: end;
+        padding-top: 50px;
+    }
+    button {
+        height: 68px;
+        width: 187px;
+        border-radius: 10px;
+        border: solid 1px white;
+        background-color: #FFAA04;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: white;
+    }
+    label {
+        display: flex;
+        padding-bottom: 5px;
+        justify-content: start;
+        font-size: 16px;
+        color: white;
+    }
+    .containerEmail {
+        padding-bottom: 100px;
+    }
+}
