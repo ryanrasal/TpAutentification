@@ -12,17 +12,18 @@
     <div class="container">
         <div>
             <h2>Sign into Solarco</h2>
-            <form action="submit">
+            <form>
                 <div class="containerEmail">
                     <label for="">Email-adress</label>
-                    <input type="text">
+                    <input type="text" class="inputForm"  id="inputEmail">
                 </div>
                 <div class="containerPassword">
                     <label for="">Password</label>
-                    <input type="text">
+                    <input type="text" class="inputForm" id="inputPassword" value="" placeholder="password">
                 </div>
+                <p id="erreur"></p>
                 <div class="containerButton">
-                    <button type="submit">Submit</button>
+                    <button id="buttonSubmit">Submit</button>
                 </div>
                 <p class="pForm">No Account? Sign Up <span>Here</span></p>
             </form>
